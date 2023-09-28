@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #body{
+            background-color: black;
+
+        }
         #main-container{
             display: flex;
             flex-direction: column;
@@ -12,18 +16,19 @@
             text-align: center;
         }
         .container{
-            border: 5px solid black;
+            border: 5px solid orange;
             padding: 15px;
             margin: 50px;
+            background-color: black;
         }
     </style>
 </head>
-<body>
+<body id="body">
     <div id="main-container">
         <div class="container">
             <img src="images/R6S_RANK_500x500_Champions_01.webp" alt="champ rank">
-            <p>
-                You need 5000 MMR to reach this rank
+            <p style="color: white;">
+                <strong>You need 5000 MMR to reach this rank</strong>   
             </p>
 
         </div>
