@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #fraction-container{
+        #fraction-container1{
             display: flex;
             flex-direction: row;
+            align-items: center;
+            text-align: center;
+        }
+        #fraction-container2{
+            display: flex;
+            flex-direction: column;
             align-items: center;
             text-align: center;
         }
@@ -21,20 +27,20 @@
     </style>
 </head>
 <body>
-    <div id="fraction-container">
+    <div id="fraction-container1">
         
         <div class="fraction" id="fration1">
             <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/stats">
             <img src="images/R6S_RANK_500x500_Champions_01.webp" alt="champ rank">
             </a>
-            <p>this is the champ rank in r6s</p>
+            <p><strong>this is the champ rank in r6s</strong></p>
         </div>
         
         <div class="fraction" id="fraction2">
             <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/stats">
             <img src="images/RANK_L_Emerald_03.webp" alt="emerald rank">
             </a>
-            <p>this is the emerald rank in r6s</p>
+            <p><strong>this is the emerald rank in r6s</strong></p>
             
         </div>
         
@@ -42,8 +48,22 @@
             <a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/stats">
             <img src="images/R6S_RANK_500x500_Diamond_02.webp" alt="diamond rank">
             </a>
-            <p>this is the diamond rank in r6s</p>
+            <p><strong>this is the diamond rank in r6s</strong></p>
         </div>
+    </div>
+    <div id="fraction-container2">
+        <p><em>here's a list of ranks from best to worst:</em></p>
+        <ol> <strong>
+            <li>champion</li>
+            <li>diamond</li>
+            <li>emerald</li>
+            <li>platinum</li>
+            <li>gold</li>
+            <li>silver</li>
+            <li>bronze</li>
+            <li>copper</li>
+            </strong>
+        </ol>
     </div>
 </body>
 </html>
